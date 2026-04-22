@@ -90,11 +90,11 @@ print("\n--- Broadcasting ---")
 scalar = 2
 print(f"A * {scalar} =\n{A * scalar}")
 
-row_vector = np.array([10, 20])
-print(f"A + {row_vector} (add to each row):\n{A + row_vector}")
+col_vector = np.array([10, 20])
+print(f"A + {col_vector} (add to each col):\n{A + col_vector}")
 
-col_vector = np.array([[10], [20]])
-print(f"A + \n{col_vector} (add to each column):\n{A + col_vector}")
+row_vector = np.array([[10], [20]])
+print(f"A + \n{row_vector} (add to each row):\n{A + row_vector}")
 
 # Statistical operations on 2D arrays
 print("\n--- Statistical Operations ---")

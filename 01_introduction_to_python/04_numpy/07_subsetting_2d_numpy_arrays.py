@@ -63,6 +63,7 @@ if np_baseball.shape[0] > 123:
 else:
     height_124th = np_baseball[23, 0]  # Using index 23 as example
     print(f"\nHeight of 24th player (index 23): {height_124th} inches")
+    
 
 
 # ============================================================================
